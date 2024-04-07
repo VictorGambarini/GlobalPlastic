@@ -20,6 +20,10 @@ PlasticDB.fasta: Copy of PlasticDB database version used in this work.
 
 ENA_metatranscriptomes.txt: File downloaded from the European Nucleotide Archive containing metadata about the Tara Oceans sequencing files.
 
+Metatranscriptomic_environmental.tsv.gz: Original file with environmental variables downloaded from [pangea](https://doi.pangaea.de/10.1594/PANGAEA.875582).
+
+Metatranscriptomic_env.tsv: Cleaned environmental variables file with added plastic pollution data.
+
 ## Reproducibility
 
 The code has been designed to be as reproducible as possible. All the necessary data downloads and preprocessing steps are automated within the Jupyter Notebook. Please note that some of the initial datasets are quite large, so the first run may take some time to complete.
